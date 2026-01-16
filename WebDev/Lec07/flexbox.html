@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #p{
+        border: 2px solid peru;
+            height: 1000px;
+            /* width: 1340px; */
+            display: flex;
+            background-color: peru;
+            /* flex-wrap: wrap; */
+            align-items: center;
+            justify-content: center;
+            justify-content: space-between;
+
+    }
+    #p div{
+        background-color: aqua;
+        /* border: solid peru; */
+        height: 100px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #one{
+        /* flex-grow: 1; */
+        /* flex-shrink: 2; */
+        flex-basis: 200px;
+
+    }
+    #two{
+        /* flex-grow: 2; */
+        /* flex-shrink: 1; */
+
+    }
+
+
+</style>
+<body>
+    <div id="p">
+        <div id="one">1</div>
+        <div id="two">2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+
+    </div>
+    
+</body>
+</html>
