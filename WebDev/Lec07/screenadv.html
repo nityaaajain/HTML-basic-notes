@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        
+            
+            background-color: rgb(227, 227, 188); 
+            /* flex-wrap: wrap;            */
+            display: flex;
+
+         
+    }
+   #p{
+                justify-content: space-between;
+
+
+   }
+   @media screen and (max-width: 600px) {
+    body{
+        display: flex;
+    }
+    
+    
+   }
+   @media screen and (min-width: 600px) {
+        
+        #p{
+    display: flex;
+   }
+    }
+    
+    #one{
+      font-weight: bold;
+    }
+    #two{
+        font-weight: bold;
+    }
+    
+    
+
+
+</style>
+<body>
+    <div id="p">
+        <div id="one">
+        Navbar
+        </div>
+        <div id="two">
+            Home
+        </div>
+        <div>Link</div>
+        <div>Description</div>
+        <div>Dashboard</div>
+        <div>Search</div>
+        <div>
+            <button>Search</button>
+        </div>
+        
+
+    </div>
+    
+</body>
+</html>
