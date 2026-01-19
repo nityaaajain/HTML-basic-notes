@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #p{
+            height: 600px;
+            width: 300px;
+            position: relative;
+            margin: auto;
+            transform-style: preserve-3d;
+            
+        }
+        #p:hover{
+            transition: 3s;
+            transform: rotateY(180deg);
+        }
+        #f{
+            height: 50%;
+            z-index: 7;
+            width: 100%;
+            position: absolute;
+            backface-visibility: hidden;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+
+        }
+        #b{
+            height: 50%;
+            position: absolute;
+            transform: rotateY(180deg);
+            width: 100%;
+            background-color: aquamarine;
+        }
+
+    </style>
+</head>
+<body>
+    
+       <div id="p">
+         <div id="f">   
+            <img src="https://images.unsplash.com/photo-1767982573352-5fae82982f2e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzMXx8fGVufDB8fHx8fA%3D%3D"/>
+        </div>
+        <div id="b">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque cupiditate praesentium tenetur, magnam nam labore quas ducimus nesciunt quod laborum ipsam deleniti iste facere tempore commodi, repudiandae rem hic fugit.</div>
+       </div>
+    
+    
+    
+</body>
+</html>
