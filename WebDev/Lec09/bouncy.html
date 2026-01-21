@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+
+        }
+        
+        div{
+            height: 100px;
+            width: 100px;
+            border: solid rgba(0, 0, 255, 0.624);
+            background: linear-gradient(
+                90deg,
+                aqua 0%,
+                aquamarine 35%,
+                lightblue 70%,
+                aqua 100%
+            );
+            border-radius: 50%;
+            animation-name: nit;
+            animation-duration: 900ms;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-direction: alternate;
+        }
+        @keyframes nit {
+            0%{
+                transform: translateY(6px);
+            }      
+            100%{
+                transform: translateY(85vh) rotate(360deg);
+            }      
+        }
+        
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
